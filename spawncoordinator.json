@@ -1,0 +1,57 @@
+{
+	"initialDifficulty" : 60.0,
+	"maxPercentageBoats" : 0.5,
+	"maxNumAcePerDifficultyPerc" : 0.002,
+	"maxNumBlimpsPerDifficultyPerc" : 0.001,
+	"AceToLaserAceChance" : 0.016667,
+	"minNumSubmarineKillsForAceMarine" : 1,
+	"submarineToAceMarineChance" : 0.3333333333,
+	
+	"increaseDifficulty" :
+	[
+		{
+			"add" : 1.0,
+			"max" : 99999999.0
+		},
+		{
+			"add" : 1.0,
+			"max" : 200.0
+		},
+		{
+			"add" : 1.0,
+			"max" : 350.0
+		}	
+	],
+	
+	"spawnlist" : 
+	[
+		{
+			"difficulty" : -1,
+			"choose" : ["Fighter"]	
+		},
+		{
+			"difficulty" : 60,
+			"choose" : ["Fighter","Fighter","Fighter","Fighter"]	
+		},
+		{
+			"difficulty" : 160,
+			"choose" : ["Fighter","Fighter","Fighter","Fighter","Fighter","Fighter","Fighter","Fighter","Fighter","Fighter"]	
+		},
+		{
+			"difficulty" : 220,
+			"choose" : ["Fighter","Fighter","Fighter","Fighter","Fighter","Fighter","Fighter","Fighter","Fighter","Fighter","Fighter","Fighter","Fighter","Fighter","Fighter"]	
+		},
+		{
+			"difficulty" : 340,
+			"choose" : ["Fighter","Fighter","Fighter","Fighter","Fighter","Fighter","Fighter","Fighter","Fighter","Fighter","Fighter","Fighter","Fighter","Fighter","Fighter"]	
+		},
+		{
+			"difficulty" : 480,
+			"choose" : ["Fighter","Fighter","Fighter","Fighter","Fighter","Fighter","Fighter","Fighter","Fighter","Fighter","Fighter","FighterFighterAce","Fighter","Fighter"]	
+		},
+		{
+			"difficulty" : 600,
+			"choose" : ["Fighter","Fighter","Fighter","Fighter","Fighter","Fighter","Fighter","Fighter","Fighter","Fighter","Fighter","Fighter","Fighter","Fighter","Fighter","Fighter"]	
+		}
+	]
+}
